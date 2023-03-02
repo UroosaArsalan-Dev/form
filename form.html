@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table , th , td {
+            border: 1px solid black;
+            height: 30px;
+        }
+        .inp , .date {
+            height: 20px;
+            width: 200px;
+        }
+        
+    </style>
+</head>
+<body>
+    <table>
+
+        <tr> <th colspan="2" align="centre">Registration Form</th> </tr>
+
+        <tr>
+            <td> <label for="Sname"> Student Name</label></td>
+            <td> <input class="inp" type="text" name="Sname" id="Sname" size="20" maxlength="30" placeholder="Enter your name" required></td>
+    </tr>
+        <tr>
+            <td>Father's Name</td>
+            <td><input class="inp" type="text" name="Fname" id="Fname"></td>
+        </tr>
+        <tr>
+            <td>Mother's Name</td>
+            <td><input class="inp" type="text" name="Mname" id="Mname"></td>
+        </tr>
+        <tr>
+            <td>Date of Birth</td>
+            <td><input class="date" type="date" name="birth date" id="birth date"></td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td><input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female</td>
+        </tr>
+        <tr>
+            <td>Email ID</td>
+            <td><input class="inp" type="email" name="Email" id=""></td>
+        </tr>
+        <tr>
+            <td>Mobile No.</td>
+            <td><input class="inp" type="number" name="" id=""></td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td><textarea name="address" id="" cols="25" rows="5"></textarea></td>
+        </tr>
+        <tr>
+            <td>State</td>
+            <td><input class="inp" type="text" name="State" id=""></td>
+        </tr>
+        <tr>
+            <td>City</td>
+            <td><input class="inp" type="text" name="City" id=""></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center"><a href="2page/submit.html"><input type="submit" value="Submit"></a></td>
+        </tr>
+        
+    </table>
+</body>
+</html>
